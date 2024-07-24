@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #162114;
+    --primary-lighter: #294122;
+    --secondary-color: #EB3D00;
+    --secondary-lighter: #FFEDD2;
+    
+    --header-one: 3rem;
+    --header-two: 2rem;
+    --header-three: 1.5rem;
+    --header-weight: 600;
+
+    --main-font-size: 1rem;
+
+    --main-font: "Playfair Display", serif;
+    --secondary-font: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.one {
+    font-size: var(--header-one);
+    font-family: var(--main-font);
+    font-weight: var(--header-weight);
+    color: var(--secondary-color);
+}
+.two {
+    font-size: var(--header-one);
+}
+.three {
+    font-size: var(--header-three);
+}
+.four {
+    font-size: var(--main-font-size);
+    font-family: var(--secondary-font);
+}
