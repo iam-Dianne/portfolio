@@ -17,13 +17,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/mediaqueries.css">
+    <script src="/scripts.js"></script>
 
 
 </head>
 <body>
-    <p class="one">Hello bitch</p>
-    <p class="two">Hello bitch</p>
-    <p class="three">Hello bitch</p>
-    <p class="four">Hello bitch</p>
+    <nav id="main-nav">
+        <div class="navbar-brand">
+            SI DAYAN
+        </div>
+        <div>
+            <ul class="navbar-options">
+                <li class="nav-option">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav-option">
+                    <a href="#">About</a>
+                </li>
+                <li class="nav-option">
+                    <a href="#">Projects</a>
+                </li>
+                <li class="nav-option">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="navbar-brand">
+            SI DAYAN
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li class="nav-option">
+                    <a href="#" onclick="toggleMenu()">Home</a>
+                </li>
+                <li class="nav-option">
+                    <a href="#" onclick="toggleMenu()">About</a>
+                </li>
+                <li class="nav-option">
+                    <a href="#" onclick="toggleMenu()">Projects</a>
+                </li>
+                <li class="nav-option">
+                    <a href="#" onclick="toggleMenu()">Contact</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <section id="main-section">
+        
+    </section>
 </body>
 </html>
