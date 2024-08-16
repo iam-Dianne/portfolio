@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
+    <meta name="viewport" content="width=device-width
     , initial-scale=1.0">
     <title>Dianne Ramirez</title>
+
 
     <!-- POPPINS FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,62 +17,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/mediaqueries.css">
-    <script src="/scripts.js"></script>
+    <!-- TYPING EFFECT -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/mediaqueries.css">
+    <script src="assets/js/scripts.js"></script>
+    
 
 </head>
 <body>
-    <nav id="main-nav">
-        <div class="navbar-brand">
-            SI DAYAN
+    <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Si Dayan</p>
         </div>
-        <div>
-            <ul class="navbar-options">
+        <div class="nav-menu" id="nav-menu">
+            <ul class="nav-options">
                 <li class="nav-option">
-                    <a href="#">Home</a>
+                    <a href="#home" class="nav-link">Home</a>
                 </li>
                 <li class="nav-option">
-                    <a href="#">About</a>
+                    <a href="#about" class="nav-link">About</a>
                 </li>
                 <li class="nav-option">
-                    <a href="#">Projects</a>
+                    <a href="#projects" class="nav-link">Projects</a>
                 </li>
                 <li class="nav-option">
-                    <a href="#">Contact</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
         </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="navbar-brand">
-            SI DAYAN
+        <div class="nav-button">
+            <button class="primary-btn">Download CV 
+                <i class="fa-regular fa-file"></i>
+            </button>
         </div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li class="nav-option">
-                    <a href="#" onclick="toggleMenu()">Home</a>
-                </li>
-                <li class="nav-option">
-                    <a href="#" onclick="toggleMenu()">About</a>
-                </li>
-                <li class="nav-option">
-                    <a href="#" onclick="toggleMenu()">Projects</a>
-                </li>
-                <li class="nav-option">
-                    <a href="#" onclick="toggleMenu()">Contact</a>
-                </li>
-            </div>
+        <div class="nav-hamburger">
+            <i class="fa-solid fa-bars" onclick="hamburgerMenu()"></i>
         </div>
     </nav>
-    <section id="main-section">
-        
-    </section>
+
+
 </body>
 </html>
