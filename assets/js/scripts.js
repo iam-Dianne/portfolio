@@ -3,9 +3,9 @@
 function hamburgerMenu() {
     var menuBtn = document.getElementById("nav-menu");
 
-    if(menuBtn.className === "nav-menu") {
-        menuBtn.className += "responsive";
+    if (menuBtn.classList.contains("responsive")) {
+        menuBtn.classList.remove("responsive");
     } else {
-        menuBtn.className = "nav-menu";
+        menuBtn.classList.add("responsive");
     }
 }
