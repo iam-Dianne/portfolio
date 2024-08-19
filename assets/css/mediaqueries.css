@@ -1,5 +1,4 @@
 
-
 @media only screen and (max-width: 900px) {
     
     .nav-button {
@@ -36,4 +35,31 @@
         align-items: center;
         justify-content: center;
     }
+
+    /* HERO SECTION */
+
+    .hero-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-col {
+        padding: 10rem 0 0 0;
+    }
+
+    .img-frame {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .img-col img {
+        height: 35vh;
+    }
+
+    .text-col {
+        width: 480px;
+    }
+
 }
